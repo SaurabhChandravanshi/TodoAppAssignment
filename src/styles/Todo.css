@@ -1,0 +1,45 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.todoItem {
+    min-width: 400px;
+    padding: 0.8rem 1rem;
+    margin: 1rem 0.5rem;
+    border-radius: 6px;
+    background: var(--card-background);
+    box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+}
+.title {
+    padding-bottom: 0.8rem;
+}
+.button {
+    padding: 0.5rem 0.8rem;
+    margin: 2px;
+    border-radius: 4px;
+    font-size: 0.75rem;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.button:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.btn-success {
+    background-color: var(--btn-success);
+    color: white;
+    border: none;
+}
+
+.btn-danger {
+    background-color: var(--btn-danger);
+    color: white;
+    border: none;
+}
+.btn-info {
+    background-color: var(--btn-info);
+    color: white;
+    border: none;
+}

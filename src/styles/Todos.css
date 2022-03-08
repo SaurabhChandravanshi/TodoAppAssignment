@@ -1,0 +1,39 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: center;
+}
+
+.todoContainer {
+    min-width: 400px;
+    margin: 2rem 0rem;
+}
+.todoContainer h1 {
+    font-size: 1rem;
+    text-align: center;
+    font-weight: 600;
+    padding: 0.4rem;
+}
+.doneContainer {
+    min-width: 400px;
+    margin: 2rem 0rem;
+}
+.doneContainer h1 {
+    font-size: 1rem;
+    text-align: center;
+    font-weight: 600;
+    padding: 0.4rem;
+}
+
+.plusBtn {
+    background-color: blue;
+    color: white;
+    font-size: 1.2rem;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    border-radius: 4px;
+    padding: 0.5rem 1rem;
+    margin: 1rem 1rem;
+}

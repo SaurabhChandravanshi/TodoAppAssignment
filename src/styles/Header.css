@@ -1,0 +1,28 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.nav {
+    margin: 0;
+    padding: 0;
+    min-height: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: var(--navbar-bg);
+    color: white;
+}
+
+.logo {
+    padding: 1rem 2rem;
+    background-color: transparent;
+    font-weight: 600;
+    display: inline-block;
+    font-size: 1.2rem;
+}
+.theme {
+    padding: 1rem 2rem;
+    cursor: pointer;
+}
+.theme:hover {
+    background-color: #ccc;
+}
