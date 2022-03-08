@@ -37,7 +37,7 @@ export default function Todos() {
             {
                 showAddTodo ? <AddTodo/> : ''
             }
-            <button className='plusBtn' onClick={() => setShowAddTodo(!showAddTodo)}>
+            <button className='plusBtn' title='Add Item' onClick={() => setShowAddTodo(!showAddTodo)}>
                 {
                     showAddTodo ? '- Cancel' : '+ Item'
                 }

@@ -20,7 +20,7 @@ export default function AddTodo() {
     }
 
   return (
-    <div className='form'>
+    <div role={'todo-form'} className='form'>
     <form onSubmit={(e) => addTodo(e)}>
     <input value={title} type='text' placeholder='Todo Title..' onChange={(e) => setTitle(e.target.value)} required minLength={2}/>
     <button type='submit'>Add Item</button>
